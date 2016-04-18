@@ -1,0 +1,30 @@
+﻿@using MVCDemo.Models
+
+@model IEnumerable<Subject>
+
+@{
+    ViewBag.Title = "Subject Lists";
+}
+@Html.ActionLink("Create", "Create")
+<table>
+    <tr>
+        <th>Id
+        </th>
+        <th>Name
+        </th>
+        <th>Description
+        </th>
+    </tr>
+    @if (@Model != null)
+    {
+        foreach (Subject subject in @Model)
+        {
+        <tr>
+            <td>@subject.SubjectId</td>
+            <td>@subject.Name</td>
+            <td>@subject.Description</td>
+            <td>@Html.RouteLink("Show Sections", new { controller = "Section/Index/" + subject.SubjectId }) </td>
+        </tr>
+        }
+    }
+</table>

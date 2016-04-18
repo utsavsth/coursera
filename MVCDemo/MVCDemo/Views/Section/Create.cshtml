@@ -1,0 +1,26 @@
+﻿@model MVCDemo.Models.Section
+
+@{
+    ViewBag.Title = "Create Section";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>Section:</td>
+            <td>@Html.TextBoxFor(m => m.SectionName)</td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td>@Html.TextBoxFor(m => m.Description)</td>
+        </tr>
+        <tr>
+            <td>@Html.HiddenFor(m => m.SubjectId)</td>
+        </tr>
+    </table>
+    <button>Submit</button>
+    @Html.ActionLink("Back to list", "Index")
+}

@@ -1,0 +1,23 @@
+﻿@model MVCDemo.Models.Subject
+
+@{
+    ViewBag.Title = "New Subject";
+}
+
+<h3>New Subject</h3>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>Subject:</td>
+            <td>@Html.TextBoxFor(m => m.Name)</td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td>@Html.TextBoxFor(m => m.Description)</td>
+        </tr>
+    </table>
+    <button>Submit</button>
+    @Html.ActionLink("Back to list", "Index")
+}

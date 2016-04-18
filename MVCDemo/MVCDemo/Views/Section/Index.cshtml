@@ -1,0 +1,31 @@
+﻿@using MVCDemo.Models
+
+@model IEnumerable<Section>
+
+@{
+    ViewBag.Title = "Section List";
+}
+
+@Html.ActionLink("Create", "Create")
+<h3>Lists of section</h3>
+<table>
+    <tr>
+        <th>Id
+        </th>
+        <th>Section
+        </th>
+        <th>Description
+        </th>
+    </tr>
+    @if (@Model != null)
+    {
+        foreach (Section sec in @Model)
+        {
+        <tr>
+            <td>@sec.SectionId</td>
+            <td>@sec.SectionName</td>
+            <td>@sec.Description</td>
+        </tr>
+        }
+    }
+</table>
