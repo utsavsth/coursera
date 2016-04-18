@@ -22,17 +22,24 @@ namespace MVCDemo.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            SubjectViewModel model = new SubjectViewModel();
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Create(Subject subject)
+        public ActionResult Create(SubjectViewModel subject)
         {
             AppContext epContext = new AppContext();
-            epContext.Subjects.Add(subject);
+            Subject s = new Subject
+            {
+                GradeId = subject.SelectedGrade,
+                Name = subject.Name,
+                Description = subject.Name
+            };
+            epContext.Subjects.Add(s);
             epContext.SaveChanges();
 
-            return RedirectToAction("Index", "Section", new { id = subject.SubjectId });
+            return RedirectToAction("Index", "Section", new { id = s.SubjectId });
         }
     }
 }

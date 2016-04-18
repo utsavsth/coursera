@@ -1,0 +1,31 @@
+﻿@using MVCDemo.Models
+
+@model IEnumerable<Grade>
+
+@{
+    ViewBag.Title = "Grade List";
+}
+
+@Html.ActionLink("Create", "Create")
+<h3>List of Grade</h3>
+<table>
+    <tr>
+        <th>Id
+        </th>
+        <th>Name
+        </th>
+        <th>Description
+        </th>
+    </tr>
+    @if (@Model != null)
+    {
+        foreach (Grade grade in @Model)
+        {
+        <tr>
+            <td>@grade.GradeId</td>
+            <td>@grade.GradeName</td>
+            <td>@*@Html.RouteLink("Show Sections", new { controller = "Section/Index/" + subject.SubjectId })*@ </td>
+        </tr>
+        }
+    }
+</table>

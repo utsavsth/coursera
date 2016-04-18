@@ -1,4 +1,4 @@
-﻿@model MVCDemo.Models.Subject
+﻿@model MVCDemo.Models.SubjectViewModel
 
 @{
     ViewBag.Title = "New Subject";
@@ -9,6 +9,12 @@
 @using (Html.BeginForm())
 {
     <table>
+        <tr>
+            <td>Grade:</td>
+            <td>
+                @Html.DropDownListFor(p => Model.SelectedGrade, Model.GradeDropDown, new { @class = "form-control" })
+            </td>
+        </tr>
         <tr>
             <td>Subject:</td>
             <td>@Html.TextBoxFor(m => m.Name)</td>

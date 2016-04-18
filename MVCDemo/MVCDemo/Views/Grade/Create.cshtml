@@ -1,0 +1,19 @@
+﻿@model MVCDemo.Models.Grade
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h3>New Grade</h3>
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            <td>Grade:</td>
+            <td>@Html.TextBoxFor(m => m.GradeName)</td>
+        </tr>
+    </table>
+    <button>Submit</button>
+    @Html.ActionLink("Back to list", "Index")
+}
