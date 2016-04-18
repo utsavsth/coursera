@@ -1,4 +1,4 @@
-﻿@model MVCDemo.Models.Section
+﻿@model MVCDemo.Models.SectionViewModel
 
 @{
     ViewBag.Title = "Create Section";
@@ -18,7 +18,9 @@
             <td>@Html.TextBoxFor(m => m.Description)</td>
         </tr>
         <tr>
-            <td>@Html.HiddenFor(m => m.SubjectId)</td>
+            <td>
+                @Html.DropDownListFor(p => Model.SelectedSubject, Model.SubjectDropDown, new { @class = "form-control" })
+            </td>
         </tr>
     </table>
     <button>Submit</button>

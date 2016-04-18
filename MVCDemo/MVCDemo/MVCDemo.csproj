@@ -126,6 +126,7 @@
     <Compile Include="Models\AppContext.cs" />
     <Compile Include="Models\Grade.cs" />
     <Compile Include="Models\Section.cs" />
+    <Compile Include="Models\SectionViewModel.cs" />
     <Compile Include="Models\Subject.cs" />
     <Compile Include="Models\SubjectViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

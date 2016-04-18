@@ -22,14 +22,21 @@ namespace MVCDemo.Controllers
 
         public ActionResult Create()
         {
-            return View();
+            SectionViewModel model = new SectionViewModel();
+            return View(model);
         }
 
         [HttpPost]
-        public ActionResult Create(Section section)
+        public ActionResult Create(SectionViewModel section)
         {
             AppContext epContext = new AppContext();
-            epContext.Sections.Add(section);
+            Section s = new Section
+            {
+                SubjectId = section.SelectedSubject,
+                SectionName = section.SectionName,
+                Description = section.Description
+            };
+            epContext.Sections.Add(s);
             epContext.SaveChanges();
             return View();
         }

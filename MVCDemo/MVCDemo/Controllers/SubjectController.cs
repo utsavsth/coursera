@@ -34,7 +34,7 @@ namespace MVCDemo.Controllers
             {
                 GradeId = subject.SelectedGrade,
                 Name = subject.Name,
-                Description = subject.Name
+                Description = subject.Description
             };
             epContext.Subjects.Add(s);
             epContext.SaveChanges();

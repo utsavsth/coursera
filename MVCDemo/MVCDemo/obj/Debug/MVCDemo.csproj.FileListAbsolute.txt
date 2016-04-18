@@ -65,3 +65,4 @@ C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\bin\System.Web.WebPage
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\bin\System.Web.WebPages.Razor.xml
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.dll
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.pdb
+C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.csprojResolveAssemblyReference.cache
