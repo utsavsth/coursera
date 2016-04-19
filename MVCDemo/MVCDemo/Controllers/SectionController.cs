@@ -23,6 +23,7 @@ namespace MVCDemo.Controllers
         public ActionResult Create(int Id)
         {
             SectionViewModel model = new SectionViewModel();
+            model.SelectedSubject = Id;
             return View(model);
         }
 
