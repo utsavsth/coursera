@@ -116,6 +116,7 @@
   <ItemGroup>
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\GradeController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\SectionController.cs" />
     <Compile Include="Controllers\SubjectController.cs" />
     <Compile Include="Global.asax.cs">

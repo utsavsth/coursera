@@ -66,3 +66,37 @@ C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\bin\System.Web.WebPage
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.dll
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.pdb
 C:\Users\Lenovo\Downloads\coursera-master\MVCDemo\MVCDemo\obj\Debug\MVCDemo.csprojResolveAssemblyReference.cache
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\MVCDemo.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\MVCDemo.pdb
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\EntityFramework.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\EntityFramework.SqlServer.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\Newtonsoft.Json.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.Formatting.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.WebRequest.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Helpers.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Http.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Http.WebHost.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Mvc.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Razor.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.Deployment.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.Razor.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\EntityFramework.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\EntityFramework.SqlServer.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\Newtonsoft.Json.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.Formatting.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Net.Http.WebRequest.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Helpers.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Http.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Http.WebHost.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Mvc.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.Razor.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.Deployment.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\bin\System.Web.WebPages.Razor.xml
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\obj\Debug\MVCDemo.csprojResolveAssemblyReference.cache
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\obj\Debug\MVCDemo.dll
+D:\i82232\protable git\test-repo\coursera\MVCDemo\MVCDemo\obj\Debug\MVCDemo.pdb

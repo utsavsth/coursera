@@ -6,7 +6,7 @@
     ViewBag.Title = "Section List";
 }
 
-@Html.ActionLink("Create", "Create")
+@Html.ActionLink("Create", "Create", new { id = TempData["Id"] })
 <h3>Lists of section</h3>
 <table>
     <tr>
@@ -25,6 +25,9 @@
             <td>@sec.SectionId</td>
             <td>@sec.SectionName</td>
             <td>@sec.Description</td>
+            <td>
+                @Html.ActionLink("Add Questions", "AddQuestions", new { id = (object) sec.SectionId })
+            </td>
         </tr>
         }
     }

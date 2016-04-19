@@ -23,7 +23,7 @@
             <td>@subject.SubjectId</td>
             <td>@subject.Name</td>
             <td>@subject.Description</td>
-            <td>@Html.RouteLink("Show Sections", new { controller = "Section/Index/" + subject.SubjectId }) </td>
+            <td><a href="@Url.Action("Index", "Section", new { id = subject.SubjectId })">Show Section </a></td>
         </tr>
         }
     }

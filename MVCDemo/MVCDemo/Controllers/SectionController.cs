@@ -20,7 +20,7 @@ namespace MVCDemo.Controllers
             return View(sections);
         }
 
-        public ActionResult Create()
+        public ActionResult Create(int Id)
         {
             SectionViewModel model = new SectionViewModel();
             return View(model);
@@ -39,6 +39,12 @@ namespace MVCDemo.Controllers
             epContext.Sections.Add(s);
             epContext.SaveChanges();
             return View();
+        }
+
+        public ActionResult AddQuestions(int id)
+        {
+            TempData["SectionId"] = id;
+            return RedirectToAction("Create", "Question", TempData);
         }
     }
 }
